@@ -8,7 +8,7 @@ interface YourStackProps {
 
 export default function YourStack({ stack, onRemove, onRemoveAll }: YourStackProps) {
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6 h-fit sticky top-24 border border-gray-100">
+    <div className="bg-white rounded-xl shadow-sm p-6 h-fit sticky top-24 border border-gray-100 text-center md:text-left">
       <h2 className="text-2xl font-bold text-dark-btn mb-2">
         Your Stack
       </h2>
@@ -32,7 +32,7 @@ export default function YourStack({ stack, onRemove, onRemoveAll }: YourStackPro
             {stack.map((tech) => (
               <div
                 key={tech.id}
-                className="bg-gray-50 p-4 rounded-lg flex items-center justify-between border border-gray-200"
+                className="bg-gray-50 p-4 rounded-lg flex items-center justify-center md:justify-between border border-gray-200"
               >
                 <div className="flex items-center gap-3 flex-1">
                   <img src={tech.icon} alt={tech.name} className="w-8 h-8" />

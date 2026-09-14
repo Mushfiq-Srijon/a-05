@@ -1,21 +1,19 @@
 import { BriefcaseBusiness, Code, MessageCircle } from 'lucide-react';
+import logoImage from '../assets/logo-text.png';
 
 export default function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 mt-20">
-      <div className="max-w-7xl mx-auto px-6 py-12">
-        {/* Top Section: 4 Columns */}
+      <div className="max-w-7xl mx-auto px-6 py-12 text-center md:text-left">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
-          {/* Brand Column */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-6 h-6 bg-accent rounded-md"></div>
-              <span className="text-lg font-bold text-dark-btn">Dev Stack</span>
+            <div className="flex items-center justify-center md:justify-start mb-4">
+              <img src={logoImage} alt="Dev Stack" className="h-8 w-auto" />
             </div>
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Curated tools, technologies, and resources for developers building modern software.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center md:justify-start">
               <a href="#" className="text-gray-600 hover:text-accent transition">
                 <Code size={20} aria-label="GitHub" />
               </a>
@@ -28,7 +26,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* PRODUCT Column */}
           <div>
             <h4 className="font-bold text-dark-btn mb-6 uppercase text-sm tracking-wide">
               Product
@@ -52,7 +49,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* COMPANY Column */}
           <div>
             <h4 className="font-bold text-dark-btn mb-6 uppercase text-sm tracking-wide">
               Company
@@ -76,7 +72,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* LEGAL Column */}
           <div>
             <h4 className="font-bold text-dark-btn mb-6 uppercase text-sm tracking-wide">
               Legal
@@ -96,7 +91,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-gray-200 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-sm">
             &copy; 2024 Dev Stack. All rights reserved.
