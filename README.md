@@ -46,6 +46,7 @@ Whether you're a beginner exploring technologies or an advanced developer refini
 ```bash
 # Clone the repository
 git clone https://github.com/Mushfiq-Srijon/a-05.git
+cd a-05
 cd dev-stack
 
 # Install dependencies
@@ -62,21 +63,22 @@ Visit `http://localhost:5173` in your browser.
 
 ## Project Structure
 
+```text
 src/
 ├── components/
 │   ├── Navbar.tsx              # Navigation bar
 │   ├── Hero.tsx                # Hero section
 │   ├── TechnologyCard.tsx      # Tech card component
 │   ├── TechnologiesGrid.tsx    # Grid layout
-│   ├── YourStack.tsx            # Sidebar manager
-│   └── Footer.tsx               # Footer
+│   ├── YourStack.tsx           # Sidebar manager
+│   └── Footer.tsx              # Footer
 ├── data/
 │   └── technologies.json       # Technology data
 ├── types/
 │   └── index.ts                # TypeScript types
 ├── App.tsx                     # Main app
 └── index.css                   # Global styles
-
+```
 
 ## Color Scheme
 
