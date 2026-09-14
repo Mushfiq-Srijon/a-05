@@ -1,0 +1,123 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular",
+    "badgeColor": "blue"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "An approachable, performant and versatile framework for building user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vuedotjs.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Versatile",
+    "badgeColor": "teal"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "Frontend",
+    "description": "Cybernetically enhanced web apps with apps with complex, interactive UX.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/svelte.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Fast",
+    "badgeColor": "orange"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "The Node.js runtime built on Chrome's V8 engine for server-side development.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Standard",
+    "badgeColor": "teal"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "category": "Backend",
+    "description": "A progressive Node.js framework for building scalable server-side applications.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nestjs.svg",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Top SQL",
+    "badgeColor": "blue"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful, open-source relational database system with advanced features.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL",
+    "badgeColor": "blue"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/redis.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Cache",
+    "badgeColor": "orange"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Ubiquitous",
+    "badgeColor": "orange"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/typescript.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Essential",
+    "badgeColor": "blue"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tailwindcss.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Modern",
+    "badgeColor": "teal"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A platform designed to build, share, and run containerized applications reliably.",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Containers",
+    "badgeColor": "teal"
+  }
+]
