@@ -51,11 +51,9 @@ export default function App() {
       <Navbar />
       <Hero />
 
-      {/* Main Content */}
       <section className="px-6 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
-          {/* Section Title */}
-          <div className="mb-12">
+          <div className="mb-12 text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-dark-btn mb-2">
               Explore the{' '}
               <span className="bg-brand-gradient bg-clip-text text-transparent">
@@ -67,14 +65,11 @@ export default function App() {
             </p>
           </div>
 
-          {/* Grid + Sidebar */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Left: Technology Grid (2 columns on desktop) */}
-            <div className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-8">
+            <div>
               <TechnologiesGrid selectedStack={selectedStack} onAdd={handleAddToStack} />
             </div>
 
-            {/* Right: Your Stack Sidebar */}
             <div>
               <YourStack
                 stack={selectedStack}
@@ -88,7 +83,6 @@ export default function App() {
 
       <Footer />
 
-      {/* Toast Notifications */}
       <ToastContainer
         position="top-right"
         autoClose={3000}
