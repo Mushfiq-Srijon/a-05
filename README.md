@@ -64,18 +64,18 @@ Visit `http://localhost:5173` in your browser.
 
 src/
 ├── components/
-│ ├── Navbar.tsx # Navigation bar
-│ ├── Hero.tsx # Hero section
-│ ├── TechnologyCard.tsx # Tech card component
-│ ├── TechnologiesGrid.tsx # Grid layout
-│ ├── YourStack.tsx # Sidebar manager
-│ └── Footer.tsx # Footer
+│   ├── Navbar.tsx              # Navigation bar
+│   ├── Hero.tsx                # Hero section
+│   ├── TechnologyCard.tsx      # Tech card component
+│   ├── TechnologiesGrid.tsx    # Grid layout
+│   ├── YourStack.tsx            # Sidebar manager
+│   └── Footer.tsx               # Footer
 ├── data/
-│ └── technologies.json # Technology data
+│   └── technologies.json       # Technology data
 ├── types/
-│ └── index.ts # TypeScript types
-├── App.tsx # Main app
-└── index.css # Global styles
+│   └── index.ts                # TypeScript types
+├── App.tsx                     # Main app
+└── index.css                   # Global styles
 
 
 ## Color Scheme
