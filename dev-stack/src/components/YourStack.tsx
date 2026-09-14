@@ -1,5 +1,4 @@
-import { Technology } from '../types';
-import TechnologyCard from './TechnologyCard';
+import type { Technology } from '../types';
 
 interface YourStackProps {
   stack: Technology[];

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import technologiesData from '../data/technologies.json';
 import type { Technology } from '../types';
 import TechnologyCard from './TechnologyCard';
 
@@ -11,33 +11,7 @@ export default function TechnologiesGrid({
   selectedStack,
   onAdd,
 }: TechnologiesGridProps) {
-  const [technologies, setTechnologies] = useState<Technology[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadTechnologies = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch('/src/data/technologies.json');
-        const data = await response.json();
-        setTechnologies(data);
-      } catch (error) {
-        console.error('Error loading technologies:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadTechnologies();
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center py-20">
-        <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-accent"></div>
-      </div>
-    );
-  }
+  const technologies = technologiesData as Technology[];
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
