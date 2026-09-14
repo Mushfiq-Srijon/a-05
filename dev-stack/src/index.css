@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@theme {
+  --color-accent: #ff006e;
+  --color-accent-light: #e91e8c;
+  --color-dark-btn: #1a1a1a;
+  --color-orange-cta: #ff6b35;
+  --background-image-brand-gradient: linear-gradient(135deg, #ff6b35 0%, #ff006e 50%, #8b5cf6 100%);
 }
 
 html {
